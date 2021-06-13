@@ -26,7 +26,7 @@ git clone https://github.com/louischristopherchen/louis-christopher-stockbit.git
 * run development
   1. npm start
 
-  2. it's autmoaticaly open your browser http://localhost:3000/
+  2. it's autmoatically open your browser http://localhost:3000/
 * run production :
 
   1. npm run build
