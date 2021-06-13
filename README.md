@@ -12,7 +12,7 @@
 
 node v14.4.0 
 
-if you have nvm just run nvm, if you haven't nvm, you can install and following step [here](https://github.com/nvm-sh/nvm)
+if you have nvm just run nvm use, if you haven't nvm, you can install and following step [here](https://github.com/nvm-sh/nvm)
 
 
 git clone https://github.com/louischristopherchen/louis-christopher-stockbit.git
