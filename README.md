@@ -23,10 +23,10 @@ git clone https://github.com/louischristopherchen/louis-christopher-stockbit.git
 
   2. npm install
 
-
 * run development
   1. npm start
 
+  2. it's autmoaticaly open your browser http://localhost:3000/
 * run production :
 
   1. npm run build
