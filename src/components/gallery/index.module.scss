@@ -1,0 +1,43 @@
+@import "../../styles/variable.scss";
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 2rem;
+}
+
+.items {
+  &_list {
+    display: flex;
+    flex-direction: column;
+    height: 26rem;
+    align-items: center;
+    justify-content: center;
+  }
+  &_card {
+    width: 15rem;
+    height: 100%;
+    border: 0.1rem solid $gray;
+    border-radius: 1.2rem;
+    overflow: hidden;
+  }
+
+  &_image {
+    width: 15rem;
+    height: 20rem;
+  }
+
+  &_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $gray;
+    font-size: 1.4rem;
+    height: 5.6rem;
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .main {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

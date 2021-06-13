@@ -1,0 +1,57 @@
+@import "../../styles/variable.scss";
+
+.main {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.input_container {
+  height: 4rem;
+  line-break: 3.2rem;
+  padding: 4px 8px;
+  border-radius: 1.2rem 0 0 1.2rem;
+  border: none;
+  min-width: 19rem;
+}
+
+.button_container {
+  min-width: 6rem;
+  height: 4rem;
+  padding: 4px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $secondary;
+  border: none;
+  border-radius: 0 .8rem .8rem 0;
+  &:active {
+    background-color: darken($secondary, 10%);
+  }
+}
+
+.autocomplete {
+  &_container {
+    position: absolute;
+    top: 100%;
+    margin-top: 10px;
+    display: flex;
+    min-width: 25rem;
+    flex-direction: column;
+    z-index: 10;
+    background: $white;
+    color: $black;
+
+    & > div:last-child(1){
+      border:none
+    }
+  }
+
+  &_items {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    padding: 8px;
+    border-bottom: .1rem solid $gray;
+  }
+}

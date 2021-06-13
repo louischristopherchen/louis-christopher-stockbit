@@ -1,0 +1,14 @@
+.top {
+  &_container {
+    padding-top: 20px;
+    margin: auto;
+    max-width: 800px;
+  }
+}
+
+.bot{
+  &_container{
+    margin: 20px auto 0;
+    max-width: 800px;
+  }
+}
